@@ -1,0 +1,22 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Uploads
+uploads/
+
+# Chroma
+chroma_db/
+
+# Node
+node_modules/
+
+# Build
+dist/
+
+# Env
+.env
+
+# VS Code
+.vscode/
