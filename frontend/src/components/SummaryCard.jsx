@@ -8,7 +8,7 @@ function SummaryCard() {
   const generateSummary = async () => {
     setLoading(true);
     try {
-      const res = await api.get("/quiz/summary");
+      const res = await api.get("/summary");
       setSummary(res.data.summary);
     } catch {
       setSummary("Could not generate summary. Please upload notes first.");
