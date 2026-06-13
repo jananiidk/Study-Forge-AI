@@ -23,7 +23,7 @@ router.post(
             );
 
             const response = await axios.post(
-                "http://127.0.0.1:8000/upload",
+                "https://study-forge-ai.onrender.com/upload",
                 form,
                 {
                     headers: form.getHeaders()

@@ -11,7 +11,7 @@ function UploadPDF() {
     if (!file) return;
     setUploading(true);
     const formData = new FormData();
-    formData.append("pdf", file);
+    formData.append("file", file);
 
     try {
       const res = await api.post("/upload", formData);
